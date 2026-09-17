@@ -3,8 +3,6 @@
     <Platform Name="Any CPU" />
     <Platform Name="x86" />
   </Configurations>
-  <Folder Name="/Solution Items/">
-    <File Path="Testing Selenium/bin/Debug/Data.xml" />
-  </Folder>
+  <Folder Name="/Solution Items/" />
   <Project Path="Testing Selenium/Testing Selenium.csproj" Id="68254f24-18f2-488b-9ae5-fca98f069601" />
 </Solution>

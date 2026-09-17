@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Users>
+
+  <ValidLogin1>
+    <url>https://www.saucedemo.com/</url>
+    <username>standard_user</username>
+    <password>secret_sauce</password>
+    <expectedText>Products</expectedText>
+  </ValidLogin1>
+
+  <ValidLogin2>
+    <url>https://www.saucedemo.com/</url>
+    <username>problem_user</username>
+    <password>secret_sauce</password>
+    <expectedText>Products</expectedText>
+  </ValidLogin2>
+
+  <InvalidLogin>
+    <url>https://www.saucedemo.com/</url>
+    <username>invalid_user</username>
+    <password>invalid_pass</password>
+    <expectedText>Epic sadface: Username and password do not match any user in this service</expectedText>
+  </InvalidLogin>
+
+  <EmptyLogin>
+    <url>https://www.saucedemo.com/</url>
+    <username></username>
+    <password></password>
+    <expectedText>Epic sadface: Username is required</expectedText>
+  </EmptyLogin>
+
+</Users>
